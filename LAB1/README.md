@@ -46,53 +46,38 @@ LAB1/
 
 # 📝 Lab Questions
 
-## ✅ Q001
-Implement a program to **find the sum of the first _n_ natural numbers** using recursion.
+## ✅ Q001 — Put Them in Order
+Given a list of mathematical functions, implement a program in **C** to arrange them in **increasing order of asymptotic growth** (Big-O) for sufficiently large values of **n**.
 
 ---
 
-## ✅ Q002
-Implement a program to **find the factorial of a number** using recursion.
+## ✅ Q002 — Fair vs Biased Coin
+Simulate a **fair coin toss** in C and verify experimentally that the probability of getting **HEAD** approaches **0.5**. Extend the program to simulate a **biased coin** and compare the observed probabilities.
 
 ---
 
-## ✅ Q003
-Implement a program to **generate the Fibonacci series** using recursion.
+## ✅ Q003 — Performance Analysis of Bubble Sort
+Implement two versions of **Bubble Sort**:
+
+- Bubble Sort with **early termination** if the array becomes sorted.
+- Bubble Sort that **always performs (n − 1) passes**.
+
+Generate randomized datasets, count the number of comparisons, and analyze the performance by plotting or comparing the results.
 
 ---
 
-## ✅ Q004
-Implement a program to **reverse an array**.
+## ✅ Q004 — Towers of Hanoi (ToH)
+Implement the **Tower of Hanoi** algorithm in C. Simulate the movement of **n** disks, compute the total number of moves, and analyze the growth of the algorithm.
 
 ---
 
-## ✅ Q005
-Implement a program to **find the maximum element** in an array.
+## ✅ Q005 — Find the Partition Point
+Given an array containing a sequence of **0's followed by 1's**, implement an efficient algorithm to determine the **exact transition (partition) point**.
 
 ---
 
-## ✅ Q006
-Implement a program to **find the minimum element** in an array.
-
----
-
-## ✅ Q007
-Implement a program to **perform Linear Search** on an array.
-
----
-
-## ✅ Q008
-Implement a program to **perform Binary Search** on a sorted array.
-
----
-
-## ✅ Q009
-Implement a program to **insert an element into an array** at a specified position.
-
----
-
-## ✅ Q010
-Implement a program to **delete an element from an array**.
+## ✅ Q006 — Element Uniqueness
+Given **n random integers**, implement an algorithm to determine whether duplicate elements exist. Analyze how the algorithm performs as the input size increases.
 
 ---
 
