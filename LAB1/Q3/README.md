@@ -36,11 +36,11 @@ Plot and compare the **number of comparisons** performed by each algorithm to an
 
 ```text
 Q3/
-├── main.c          # Bubble Sort implementations
-├── main.py         # Graph plotting script
-├── q3_data.csv     # Experimental data
-├── q3_graph.png    # Generated graph
-└── README.md
+├── [main.c](./main.c)          # Bubble Sort implementations
+├── [main.py](./main.py)        # Graph plotting script
+├── [q3_data.csv](./q3_data.csv)     # Experimental data
+├── [q3_graph.png](./q3_graph.png)   # Generated graph
+└── [README.md](./README.md)
 ```
 
 ---
@@ -91,6 +91,16 @@ The experiment records:
 
 The generated CSV is used by **main.py** to create a comparison graph.
 
+### 📉 Generated Performance Graph
+
+<p align="center">
+  <a href="./q3_graph.png">
+    <img src="./q3_graph.png" alt="Bubble Sort Performance Graph" width="900">
+  </a>
+</p>
+
+> 💡 Click the graph to view it in full resolution.
+
 ---
 
 ## 🧠 Time Complexity
@@ -109,6 +119,15 @@ The generated CSV is used by **main.py** to create a comparison graph.
 - For random inputs, the optimized version consistently performs the same or fewer comparisons.
 
 ---
+
+
+## 🔗 Quick Links
+
+- 📄 [Source Code (main.c)](./main.c)
+- 🐍 [Python Plotter (main.py)](./main.py)
+- 📊 [Experimental Dataset (q3_data.csv)](./q3_data.csv)
+- 🖼️ [Generated Graph (q3_graph.png)](./q3_graph.png)
+- 📘 [Project Documentation (README.md)](./README.md)
 
 ## 🏷️ Tags
 
