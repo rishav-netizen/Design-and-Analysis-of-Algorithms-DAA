@@ -1,0 +1,2 @@
+## ✅ Q001 — Put Them in Order
+Given a list of mathematical functions, implement a program in **C** to arrange them in **increasing order of asymptotic growth** (Big-O) for sufficiently large values of **n**.
