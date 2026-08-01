@@ -55,7 +55,7 @@ The program:
 
 ## 📈 Result
 
-The graph generated from the CSV data is shown below.
+The graph generated using python from the CSV data is shown below.
 
 ![Coin Toss Comparison](coin_toss_comparison.png)
 
