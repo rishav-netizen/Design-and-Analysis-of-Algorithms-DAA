@@ -1,5 +1,3 @@
-## ✅ Q002 — Fair vs Biased Coin
-Simulate a **fair coin toss** in C and verify experimentally that the probability of getting **HEAD** approaches **0.5**. Extend the program to simulate a **biased coin** and compare the observed probabilities.
 # 🪙 Q002 — Fair vs Biased Coin Simulation
 
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
