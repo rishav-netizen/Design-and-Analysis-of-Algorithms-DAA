@@ -79,6 +79,44 @@ DAA/
 
 ---
 
+## 🤖 Repository Utilities
+
+To maintain a clean and consistent repository structure, this project also includes a small automation script:
+
+### 📁 `LAB1/folders.py`
+
+A lightweight Python utility that automatically generates the directory structure for each lab question.
+
+**Features:**
+
+- Creates folders for **Q1 → Q6** automatically.
+- Generates starter `main.c` files for each question.
+- Generates `README.md` files inside every question directory.
+- Uses Python's built-in `pathlib` module for cross-platform filesystem operations.
+- Helps keep the repository organized and saves time when starting a new lab.
+
+Example structure generated:
+
+```text
+LAB1/
+├── Q1/
+│   ├── main.c
+│   └── README.md
+├── Q2/
+├── Q3/
+├── Q4/
+├── Q5/
+└── Q6/
+```
+
+Run the script using:
+
+```bash
+python3 LAB1/folders.py
+```
+
+---
+
 ## 🎯 Objectives
 
 - Understand algorithm design techniques.
