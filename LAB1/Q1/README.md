@@ -1,10 +1,12 @@
 # 📈 Q001 — Put Them in Order
 
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
 ![CSV](https://img.shields.io/badge/CSV-Generated-success?style=for-the-badge)
 ![DAA](https://img.shields.io/badge/Design%20%26%20Analysis%20of%20Algorithms-Lab-blueviolet?style=for-the-badge)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ## 📌 Objective
 
