@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
+typedef char* string;
 
 enum Function {
     ONE_OVER_N,
@@ -16,6 +17,21 @@ enum Function {
     N_POW_LOG2_N,
     THREE_POW_N,
     NUM_FUNCTIONS
+};
+
+const string function_names[NUM_FUNCTIONS] = {
+    "1/n",
+    "log2(n)",
+    "12sqrt(n)",
+    "n^0.51",
+    "50sqrt(n)",
+    "2^32 * n",
+    "n log2(n)",
+    "100n^2 + 6n",
+    "n^2 - 324",
+    "2n^3",
+    "n^(log2 n)",
+    "3^n"
 };
 
 int main() {
@@ -45,6 +61,29 @@ int main() {
                 pow((double)n, log2((double)n)),
                 pow(3.0, n));
     }
+
+    printf("\nIncreasing Order of Growth (for sufficiently large n):\n\n");
+
+    int order[] = {
+        ONE_OVER_N,
+        LOG2_N,
+        SQRT12_N,
+        SQRT50_N,
+        N_POW_0_51,
+        TWO_POW_32_N,
+        N_LOG2_N,
+        HUNDRED_N2_PLUS_6N,
+        N2_MINUS_324,
+        TWO_N3,
+        N_POW_LOG2_N,
+        THREE_POW_N
+    };
+
+    for (int i = 0; i < NUM_FUNCTIONS; i++) {
+        printf("%2d. %s\n", i + 1, function_names[order[i]]);
+    }
+
+    printf("\nNote: 12sqrt(n) & 50sqrt(n), and 100n^2+6n & n^2-324 belong to the same asymptotic growth class; they are listed separately only because they are separate functions in the assignment.\n");
 
     fclose(f);
     printf("Data written to q1_data.csv successfully.\n");
