@@ -75,7 +75,7 @@ DAA/
 
 ## 🛠️ Tech Stack
 
-- **Language:** C
+- **Language:** C, Python
 - **Compiler:** GCC
 - **IDE:** Visual Studio Code
 - **Version Control:** Git & GitHub
