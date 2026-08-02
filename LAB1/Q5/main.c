@@ -27,7 +27,6 @@ int main()
     }
     printf("\n");
     
-
     // dynamic allocation so that the zeroes are already there
     int *binary_array;
     binary_array = (int *)calloc(n, sizeof(int));
@@ -59,7 +58,7 @@ int BinarySearch(int *array, int length, int key)
 {   
     int l = 0, u = length - 1, m = (l + u) / 2;
     int index = -1;
-    while (l < u)
+    while (l <= u)
     {
         m = (l + u) / 2;
         if (array[m] == key)
