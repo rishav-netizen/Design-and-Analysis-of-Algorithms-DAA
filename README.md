@@ -48,7 +48,7 @@ This repository contains my **Design and Analysis of Algorithms (DAA)** laborato
 | 1 | Put Functions in Increasing Order of Growth | ✅ |
 | 2 | Fair vs Biased Coin Simulation | ✅ |
 | 3 | Bubble Sort Performance Analysis | ✅ |
-| 4 | Towers of Hanoi | ⏳ |
+| 4 | Towers of Hanoi | ✅ |
 | 5 | Find the Partition Point | ⏳ |
 | 6 | Element Uniqueness | ⏳ |
 
@@ -133,7 +133,7 @@ python3 LAB1/folders.py
 ## 📈 Progress
 
 ```text
-Lab 01  ████████████░░░░░░░░ 65%
+Lab 01  ███████████████░░░░░ 80%
 Overall ████░░░░░░░░░░░░░░░░  1 / N Labs
 ```
 
