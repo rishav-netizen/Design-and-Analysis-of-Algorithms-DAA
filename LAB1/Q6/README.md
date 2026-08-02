@@ -79,6 +79,18 @@ gcc main.c -o q6
 ./q6
 ```
 
+### 💻 Sample Terminal Session
+
+```text
+$ ./q6
+Enter the limits between which the random number should be:
+Enter the lower limit: 1
+Enter the upper limit: 300
+How many random numbers you wanna generate: 10000
+```
+
+After providing the inputs, the program generates random numbers, counts their frequencies, checks for duplicate values, and exports the results to `randoms_count.csv`.
+
 The program will:
 
 - Ask for the lower and upper limits.
@@ -107,8 +119,15 @@ This generates:
 - 📈 `frequency_distribution.png`
 
 ---
-
 ## 📸 Sample Output
+
+### Input Configuration
+
+| Parameter | Value |
+|-----------|------:|
+| Lower Limit | **1** |
+| Upper Limit | **300** |
+| Random Numbers Generated | **10000** |
 
 ### Generated Frequency Graph
 
@@ -125,7 +144,12 @@ The graph illustrates the frequency of every generated random number within the 
 Using a frequency array allows duplicate detection in **linear time, O(n)**. Since each generated number is processed exactly once, the algorithm scales efficiently even for large values of **n** (provided the range is reasonably bounded). Compared to the naive **O(n²)** pairwise comparison approach, this method is significantly faster and more practical.
 
 ---
-
 ## 🏷️ Tags
 
-`C` `Python` `DAA` `Algorithms` `Random Number Generation` `Frequency Array` `Duplicate Detection` `CSV` `Matplotlib` `Data Visualization` `Time Complexity` `Lab 1`
+`C` `C Programming` `Python` `Algorithms` `Design and Analysis of Algorithms` `DAA` `Random Number Generation` `Element Uniqueness` `Frequency Array` `Duplicate Detection` `CSV` `Matplotlib` `Data Visualization` `Time Complexity` `Big-O Analysis` `Git` `GitHub` `GitHub Repository` `Open Source` `Computer Science` `Data Structures` `Lab 1`
+
+---
+
+<p align="center">
+  Made with ❤️ for <b>Design and Analysis of Algorithms (DAA)</b> using <b>C</b>, <b>Python</b>, and <b>GitHub</b>.
+</p>
