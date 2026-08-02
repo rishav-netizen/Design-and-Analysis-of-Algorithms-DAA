@@ -1,13 +1,11 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Read the generated CSV file
 file = "steps_count.csv"
 df = pd.read_csv(file)
 
 plt.figure(figsize=(18, 10))
 
-# Plot every function against n
 for column in df.columns[1:]:
     plt.plot(df["n"], df[column], linewidth=2, label=column)
 
