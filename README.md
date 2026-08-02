@@ -133,7 +133,7 @@ python3 LAB1/folders.py
 ## 📈 Progress
 
 ```text
-Lab 01  ████████████████████ 100%
+Lab 01  ████████████░░░░░░░░ 65%
 Overall ████░░░░░░░░░░░░░░░░  1 / N Labs
 ```
 
