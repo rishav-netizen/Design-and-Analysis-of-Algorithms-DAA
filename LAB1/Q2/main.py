@@ -1,12 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Read CSV
 df = pd.read_csv("q2_data.csv")
 
 plt.figure(figsize=(12, 7))
 
-# Experimental probabilities
 plt.plot(
     df["Trials"],
     df["FairProbability"],
@@ -25,7 +23,6 @@ plt.plot(
     label="Biased Coin (Experimental)"
 )
 
-# Theoretical probabilities
 plt.axhline(
     y=0.5,
     color="green",
@@ -42,8 +39,8 @@ plt.axhline(
     label="Biased Coin (Theoretical = 0.7)"
 )
 
-# Use log scale because trials increase by powers of 10
-plt.xscale("log")
+
+plt.xscale("log") #used log scale because trials increase by powers of 10
 
 plt.title(
     "Fair vs Biased Coin Toss Simulation",
@@ -53,15 +50,10 @@ plt.title(
 
 plt.xlabel("Number of Tosses (log scale)", fontsize=13)
 plt.ylabel("Probability of Heads", fontsize=13)
-
 plt.ylim(0.45, 0.75)
-
 plt.grid(True, which="both", linestyle="--", alpha=0.6)
-
 plt.legend(fontsize=11)
-
 plt.tight_layout()
-
 plt.savefig("coin_toss_comparison.png", dpi=300)
 
 plt.show()
