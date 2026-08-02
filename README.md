@@ -24,7 +24,7 @@
 
 This repository contains my **Design and Analysis of Algorithms (DAA)** laboratory work for **Semester 3**. Each lab consists of algorithmic problems, C implementations, observations, and performance analysis wherever required.
 
-> **Current Progress:** ✅ Lab-01
+> **Current Progress:** ⏳ Lab-01
 
 ---
 
@@ -48,9 +48,9 @@ This repository contains my **Design and Analysis of Algorithms (DAA)** laborato
 | 1 | Put Functions in Increasing Order of Growth | ✅ |
 | 2 | Fair vs Biased Coin Simulation | ✅ |
 | 3 | Bubble Sort Performance Analysis | ✅ |
-| 4 | Towers of Hanoi | ✅ |
-| 5 | Find the Partition Point | ✅ |
-| 6 | Element Uniqueness | ✅ |
+| 4 | Towers of Hanoi | ⏳ |
+| 5 | Find the Partition Point | ⏳ |
+| 6 | Element Uniqueness | ⏳ |
 
 ---
 
