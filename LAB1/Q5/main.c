@@ -15,7 +15,7 @@ int main(){
 
     // Dynamic allocation so that the zeroes are already there
     int *binary_array;
-    binary_array = (int *)malloc(n * sizeof(int));
+    binary_array = (int *)calloc(n, sizeof(int));
 
 
     for (int i = n - o_count; i < n; i++)
