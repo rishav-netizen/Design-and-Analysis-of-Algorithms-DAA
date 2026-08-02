@@ -35,6 +35,7 @@ int main()
     }
     
     printf("Data written successfully\n");
+    fclose(file);
     // steps = (2^n) - 1
     return 0;
 }
