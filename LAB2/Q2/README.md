@@ -1,12 +1,20 @@
-# Q2 — Two-Way vs. Three-Way Merge Sort
+# 🔀 Q2 — Two-Way vs. Three-Way Merge Sort
 
-![Language](https://img.shields.io/badge/language-C-2563EB)
-![Technique](https://img.shields.io/badge/technique-divide%20and%20conquer-7C3AED)
-![Result](https://img.shields.io/badge/worst--case-%CE%98(n%20log%20n)-059669)
+<div align="center">
 
-Compare normal merge sort, which splits the array into two pieces, with a modified version that splits it into three pieces. Both programs use the same random input and write average timings to a CSV file.
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Complexity](https://img.shields.io/badge/Worst--case-%CE%98(n%20log%20n)-059669?style=for-the-badge)
 
-[← Lab 02](../README.md) · [Repository home](../../README.md) · [Next: Q3 →](../Q3/README.md)
+</div>
+
+> Compare normal merge sort, which splits the array into two pieces, with a modified version that splits it into three. Both programs receive the same random input and write average timings to a CSV file.
+
+[← Lab 02](../README.md) · [Lab sheet (PDF)](../2026_Week2_DAA_Lab_02.pdf) · [Repository home](../../README.md) · [Next: Q3 →](../Q3/README.md)
+
+**Tags:** `#C` `#Python` `#Git` `#GitHub` `#DAA` `#DivideAndConquer` `#MergeSort` `#Benchmarking` `#AsymptoticAnalysis`
 
 ## Result
 

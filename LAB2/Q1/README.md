@@ -1,9 +1,20 @@
-# Dictionary Operations — Question 1
+# 📚 Q1 — Dictionary Operations
 
-[![Language](https://img.shields.io/badge/Language-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
-[![Course](https://img.shields.io/badge/Course-Design%20and%20Analysis%20of%20Algorithms-orange.svg)](https://en.wikipedia.org/wiki/Analysis_of_algorithms)
+<div align="center">
 
-`#C` `#DAA` `#DictionaryADT` `#Arrays` `#LinkedLists` `#AsymptoticAnalysis`
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Topic](https://img.shields.io/badge/Topic-Dictionary%20ADT-7C3AED?style=for-the-badge)
+
+</div>
+
+> Implement the same dictionary ADT with six array and linked-list representations, then compare their worst-case costs.
+
+[← Lab 02](../README.md) · [Lab sheet (PDF)](../2026_Week2_DAA_Lab_02.pdf) · [Next: Q2 →](../Q2/README.md)
+
+**Tags:** `#C` `#Python` `#Git` `#GitHub` `#DAA` `#DictionaryADT` `#Arrays` `#LinkedLists` `#AsymptoticAnalysis`
 
 ## Problem
 

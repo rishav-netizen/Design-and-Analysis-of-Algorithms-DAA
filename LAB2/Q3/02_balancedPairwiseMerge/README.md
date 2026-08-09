@@ -1,9 +1,20 @@
-# Q3(b) — Balanced Pairwise Merge
+# 🔵 Q3(b) — Balanced Pairwise Merge
 
-![Method](https://img.shields.io/badge/method-balanced%20merge-2563EB)
-![Complexity](https://img.shields.io/badge/time-%CE%98(nk%20log%20k)-059669)
+<div align="center">
 
-[← Q3 overview](../README.md) · [Source code](main.c) · [Sequential method →](../01_sequentialMerge/README.md)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Complexity](https://img.shields.io/badge/Time-%CE%98(nk%20log%20k)-059669?style=for-the-badge)
+
+</div>
+
+> Divide the arrays into balanced halves, merge each half, and then merge those answers. This avoids repeatedly copying the same early arrays.
+
+[← Q3 overview](../README.md) · [Source code](main.c) · [Lab sheet (PDF)](../../2026_Week2_DAA_Lab_02.pdf) · [Sequential method →](../01_sequentialMerge/README.md)
+
+**Tags:** `#C` `#Python` `#Git` `#GitHub` `#DAA` `#BalancedMerge` `#DivideAndConquer` `#SortedArrays` `#Benchmarking` `#ComplexityAnalysis`
 
 Instead of growing one result from left to right, split the array list into two halves. Recursively merge each half, then merge those two sorted answers.
 

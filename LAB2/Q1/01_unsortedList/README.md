@@ -1,16 +1,20 @@
-# Unsorted Array Dictionary
+# 📦 Q1.1 — Unsorted Array Dictionary
 
-[![Language](https://img.shields.io/badge/Language-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
-[![Data Structure](https://img.shields.io/badge/Data%20Structure-Unsorted%20Array-brightgreen.svg)](https://en.wikipedia.org/wiki/Array_data_structure)
-[![Topic](https://img.shields.io/badge/Topic-Searching%20%26%20Array%20Operations-orange.svg)](https://en.wikipedia.org/wiki/Searching_algorithm)
-![C](https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c)
+<div align="center">
+
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Structure](https://img.shields.io/badge/Structure-Unsorted%20Array-D97706?style=for-the-badge)
+
+</div>
+
+[← Q1 overview](../README.md) · [Source code](main.c) · [Next implementation →](../02_sortedList/README.md)
 
 
 This program implements a simple dictionary using an unsorted array. It supports insertion, linear search, deletion, maximum/minimum lookup, and predecessor/successor queries.
 
-## Tags
-
-`#C` `#DataStructures` `#Array` `#Dictionary` `#UnsortedList` `#LinearSearch` `#Deletion` `#MaxMin` `#Predecessor` `#Successor`
+**Tags:** `#C` `#Git` `#GitHub` `#DAA` `#DataStructures` `#Array` `#Dictionary` `#UnsortedList` `#LinearSearch` `#Deletion` `#MaxMin` `#Predecessor` `#Successor`
 
 ## Overview
 

@@ -1,10 +1,17 @@
-# Unsorted Doubly Linked List Dictionary
+# 🔗 Q1.5 — Unsorted Doubly Linked List Dictionary
 
-[![Language](https://img.shields.io/badge/Language-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
-[![Structure](https://img.shields.io/badge/Structure-Doubly%20Linked%20List-brightgreen.svg)](https://en.wikipedia.org/wiki/Doubly_linked_list)
-[![Order](https://img.shields.io/badge/Order-Unsorted-orange.svg)](https://en.wikipedia.org/wiki/Dictionary_(abstract_data_type))
+<div align="center">
 
-`#C` `#DAA` `#DataStructures` `#Dictionary` `#DoublyLinkedList` `#UnsortedList` `#Pointer`
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Structure](https://img.shields.io/badge/Structure-Unsorted%20Doubly%20Linked%20List-D97706?style=for-the-badge)
+
+</div>
+
+[← Previous](../04_singlyLinkedSortedList/README.md) · [Q1 overview](../README.md) · [Source code](main.c) · [Next →](../06_doublyLinkedSortedList/README.md)
+
+**Tags:** `#C` `#Git` `#GitHub` `#DAA` `#DataStructures` `#Dictionary` `#DoublyLinkedList` `#UnsortedList` `#Pointer`
 
 ## Overview
 

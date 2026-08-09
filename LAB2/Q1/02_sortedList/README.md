@@ -1,10 +1,17 @@
-# Sorted Array Dictionary
+# 📦 Q1.2 — Sorted Array Dictionary
 
-[![Language](https://img.shields.io/badge/Language-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
-[![Data Structure](https://img.shields.io/badge/Data%20Structure-Sorted%20Array-brightgreen.svg)](https://en.wikipedia.org/wiki/Array_data_structure)
-[![Topic](https://img.shields.io/badge/Topic-Dictionary%20Operations-orange.svg)](https://en.wikipedia.org/wiki/Associative_array)
+<div align="center">
 
-`#C` `#DataStructures` `#Dictionary` `#SortedArray` `#BinarySearch` `#Algorithms` `#DAA` `#Predecessor` `#Successor`
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Structure](https://img.shields.io/badge/Structure-Sorted%20Array-2563EB?style=for-the-badge)
+
+</div>
+
+[← Previous](../01_unsortedList/README.md) · [Q1 overview](../README.md) · [Source code](main.c) · [Next →](../03_singlyLinkedUnsortedList/README.md)
+
+**Tags:** `#C` `#Git` `#GitHub` `#DAA` `#DataStructures` `#Dictionary` `#SortedArray` `#BinarySearch` `#Algorithms` `#Predecessor` `#Successor`
 
 ## Overview
 

@@ -1,12 +1,20 @@
-# Q3 — Merging `k` Sorted Arrays
+# 🧩 Q3 — Merging `k` Sorted Arrays
 
-![Language](https://img.shields.io/badge/language-C%20%26%20Python-2563EB)
-![Topic](https://img.shields.io/badge/topic-merge%20algorithms-7C3AED)
-![Status](https://img.shields.io/badge/benchmark-verified-059669)
+<div align="center">
 
-Given `k` sorted arrays with `n` elements each, combine them into one sorted array of `kn` elements. This question compares a simple sequential approach with a balanced divide-and-conquer approach.
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Benchmark](https://img.shields.io/badge/Benchmark-Verified-059669?style=for-the-badge)
 
-[← Q2](../Q2/README.md) · [Lab 02](../README.md) · [Repository home](../../README.md)
+</div>
+
+> Given `k` sorted arrays with `n` elements each, combine them into one `kn`-element sorted array. This question compares a simple sequential approach with a balanced divide-and-conquer approach.
+
+[← Q2](../Q2/README.md) · [Lab 02](../README.md) · [Lab sheet (PDF)](../2026_Week2_DAA_Lab_02.pdf) · [Repository home](../../README.md)
+
+**Tags:** `#C` `#Python` `#Git` `#GitHub` `#DAA` `#MergeAlgorithms` `#DivideAndConquer` `#Benchmarking` `#ComplexityAnalysis`
 
 ## Methods and result
 
