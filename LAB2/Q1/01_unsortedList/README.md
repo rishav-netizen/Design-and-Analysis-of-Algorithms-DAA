@@ -1,4 +1,4 @@
-# Unsorted List Dictionary
+# Unsorted Array Dictionary
 
 [![Language](https://img.shields.io/badge/Language-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![Data Structure](https://img.shields.io/badge/Data%20Structure-Unsorted%20Array-brightgreen.svg)](https://en.wikipedia.org/wiki/Array_data_structure)

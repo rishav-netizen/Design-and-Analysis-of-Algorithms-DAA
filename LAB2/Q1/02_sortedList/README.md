@@ -45,8 +45,8 @@ typedef struct
 | `Delete(D, key)` | Finds the key, shifts later keys left, and removes it. |
 | `Max(D, &value)` | Retrieves the final array element. |
 | `Min(D, &value)` | Retrieves the first array element. |
-| `Predecessor(D, key, &value)` | Retrieves the greatest key strictly smaller than `key`. |
-| `Successor(D, key, &value)` | Retrieves the smallest key strictly greater than `key`. |
+| `Predecessor(D, index, &value)` | Retrieves the key immediately before an item's array position. |
+| `Successor(D, index, &value)` | Retrieves the key immediately after an item's array position. |
 
 `Max`, `Min`, `Predecessor`, and `Successor` return `true` when a result exists and store it through `value`. This avoids using a special integer such as `-1`, which could itself be a valid key.
 
@@ -61,8 +61,8 @@ Let `n` be the current number of keys.
 | Delete | `O(n)` | Binary search is `O(log n)`, but closing the gap can require `O(n)` shifts. |
 | Maximum | `O(1)` | The largest key is at index `length - 1`. |
 | Minimum | `O(1)` | The smallest key is at index `0`. |
-| Predecessor | `O(log n)` | A binary-search boundary identifies the key immediately before `key`. |
-| Successor | `O(log n)` | A binary-search boundary identifies the key immediately after `key`. |
+| Predecessor | `O(1)` | Given the item's index/pointer, it is at `index - 1`. |
+| Successor | `O(1)` | Given the item's index/pointer, it is at `index + 1`. |
 
 The sorted order makes search and boundary queries fast, but makes insertion and deletion expensive because array elements may need to move.
 
@@ -95,6 +95,6 @@ For key `30`, the predecessor is `20` and the successor is `40`.
 
 ## Notes
 
-- The implementation uses `LowerBound` and `UpperBound` helper functions to perform binary-search boundary queries.
+- The implementation uses `LowerBound` for binary search and sorted insertion.
 - Since it is a dictionary, each key must be unique.
 - This is a learning implementation using integers as keys. A more general dictionary could store key-value pairs.

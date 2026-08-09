@@ -18,11 +18,10 @@ bool Insert(Dict *D, int key);
 bool Delete(Dict *D, int key);
 bool Max(const Dict *D, int *value);
 bool Min(const Dict *D, int *value);
-bool Predecessor(const Dict *D, int key, int *value);
-bool Successor(const Dict *D, int key, int *value);
+bool Predecessor(const Dict *D, int index, int *value);
+bool Successor(const Dict *D, int index, int *value);
 
 static int LowerBound(const Dict *D, int key);
-static int UpperBound(const Dict *D, int key);
 
 int main(void)
 {
@@ -81,18 +80,25 @@ int main(void)
     else
         printf("Minimum does not exist: dictionary is empty.\n");
 
-    printf("\nEnter key to find predecessor and successor: ");
+    printf("\nEnter an existing key to find predecessor and successor: ");
     if (scanf("%d", &key) == 1)
     {
-        if (Predecessor(&D, key, &value))
-            printf("Predecessor = %d\n", value);
-        else
-            printf("No predecessor exists.\n");
+        int position = Search(&D, key);
 
-        if (Successor(&D, key, &value))
-            printf("Successor = %d\n", value);
+        if (position == -1)
+            printf("Key not found.\n");
         else
-            printf("No successor exists.\n");
+        {
+            if (Predecessor(&D, position, &value))
+                printf("Predecessor = %d\n", value);
+            else
+                printf("No predecessor exists.\n");
+
+            if (Successor(&D, position, &value))
+                printf("Successor = %d\n", value);
+            else
+                printf("No successor exists.\n");
+        }
     }
 
     printf("\nEnter key to delete: ");
@@ -170,25 +176,6 @@ static int LowerBound(const Dict *D, int key)
     return low;
 }
 
-/* Returns the first index whose value is strictly greater than key. */
-static int UpperBound(const Dict *D, int key)
-{
-    int low = 0;
-    int high = D->length;
-
-    while (low < high)
-    {
-        int mid = low + (high - low) / 2;
-
-        if (D->A[mid] <= key)
-            low = mid + 1;
-        else
-            high = mid;
-    }
-
-    return low;
-}
-
 /* Binary search: returns the key index, or -1 when the key is absent. */
 int Search(const Dict *D, int key)
 {
@@ -258,26 +245,22 @@ bool Min(const Dict *D, int *value)
     return true;
 }
 
-/* Finds the largest key strictly smaller than key. */
-bool Predecessor(const Dict *D, int key, int *value)
+/* Given an item index, its predecessor is at the previous array position. */
+bool Predecessor(const Dict *D, int index, int *value)
 {
-    int index = LowerBound(D, key);
-
-    if (index == 0)
+    if (index <= 0 || index >= D->length)
         return false;
 
     *value = D->A[index - 1];
     return true;
 }
 
-/* Finds the smallest key strictly greater than key. */
-bool Successor(const Dict *D, int key, int *value)
+/* Given an item index, its successor is at the next array position. */
+bool Successor(const Dict *D, int index, int *value)
 {
-    int index = UpperBound(D, key);
-
-    if (index == D->length)
+    if (index < 0 || index >= D->length - 1)
         return false;
 
-    *value = D->A[index];
+    *value = D->A[index + 1];
     return true;
 }

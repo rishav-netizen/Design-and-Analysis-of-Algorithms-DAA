@@ -57,3 +57,18 @@ To plot the expected growth, run each operation for progressively larger values 
 - `O(n)`: approximately a straight line
 
 Use a worst-case input for each measurement: for example, search for a missing key, insert at the beginning of a sorted array/list, and delete the first item of an array.
+
+## Complexity Visualization
+
+The following chart makes the worst-case comparison visual. It plots relative theoretical work for every operation and groups implementations only when their curves are exactly the same. The logarithmic vertical scale keeps `O(1)`, `O(log n)`, and `O(n)` visible in the same panel.
+
+[![Theoretical worst-case time-complexity chart for all Question 1 dictionary implementations](dictionary_time_complexity.png)](dictionary_time_complexity.png)
+
+Generate or refresh the chart from this directory:
+
+```bash
+python3 -m pip install matplotlib
+python3 plot_time_complexity.py
+```
+
+The script writes [dictionary_time_complexity.png](dictionary_time_complexity.png) beside itself. It models the asymptotic worst-case bounds in the table above, so it is a theory visualization rather than a machine-dependent benchmark. For `Delete`, `Predecessor`, and `Successor`, it uses the same already-available pointer/reference convention as the table.
