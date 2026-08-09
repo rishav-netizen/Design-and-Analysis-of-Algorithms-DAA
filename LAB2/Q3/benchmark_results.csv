@@ -1,0 +1,13 @@
+method,k,n,total_elements,average_seconds,sorted
+Sequential merge,2,8000,16000,9.1e-05,true
+Sequential merge,4,8000,32000,0.000216,true
+Sequential merge,8,8000,64000,0.0010532,true
+Sequential merge,16,8000,128000,0.003369,true
+Sequential merge,32,8000,256000,0.0090328,true
+Sequential merge,64,8000,512000,0.029346,true
+Balanced pairwise merge,2,8000,16000,6.38e-05,true
+Balanced pairwise merge,4,8000,32000,0.0002062,true
+Balanced pairwise merge,8,8000,64000,0.0008822,true
+Balanced pairwise merge,16,8000,128000,0.0019832,true
+Balanced pairwise merge,32,8000,256000,0.0036378,true
+Balanced pairwise merge,64,8000,512000,0.0067486,true
