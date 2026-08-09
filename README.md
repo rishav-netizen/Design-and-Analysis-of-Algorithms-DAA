@@ -1,163 +1,50 @@
+# Design and Analysis of Algorithms
 
+![Language](https://img.shields.io/badge/language-C%20%26%20Python-2563EB)
+![Semester](https://img.shields.io/badge/semester-3-7C3AED)
+![Labs](https://img.shields.io/badge/labs-2%20complete-059669)
 
-# 🚀 Design and Analysis of Algorithms (DAA)
+Coursework for the Design and Analysis of Algorithms laboratory. Each question keeps its C program, supporting data/plotting code, results, and explanation together.
 
-<div align="center">
+## Progress
 
+```text
+Lab 01  ████████████████████  100%  (6 / 6 questions)
+Lab 02  ████████████████████  100%  (3 / 3 questions)
+Overall ████████░░░░░░░░░░░░   2 / planned labs
+```
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Semester](https://img.shields.io/badge/Semester-3-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Lab--01-success?style=for-the-badge)
+## Labs
 
-### 📚 B.Tech CSE • Semester 3
-### Design and Analysis of Algorithms Laboratory
+| Lab | Focus | Progress | Open |
+| --- | --- | :---: | --- |
+| 01 | Growth analysis, simulation, sorting, recursion and searching | `██████████ 100%` | [Lab 01 README](LAB1/README.md) |
+| 02 | Dictionary implementations and merge algorithms | `██████████ 100%` | [Lab 02 README](LAB2/README.md) |
 
-</div>
-
----
-
-## 📖 About
-
-This repository contains my **Design and Analysis of Algorithms (DAA)** laboratory work for **Semester 3**. Each lab consists of algorithmic problems, C implementations, observations, and performance analysis wherever required.
-
-> **Current Progress:** ✅ Lab-01 Completed
-
----
-
-# 🧪 Lab 01
-
-## 📌 Topics Covered
-
-- 🔢 Order of Growth of Functions
-- 🪙 Fair vs Biased Coin Simulation
-- 📊 Bubble Sort Performance Analysis
-- 🗼 Towers of Hanoi
-- 🔍 Finding the Partition Point
-- ✅ Element Uniqueness Problem
-
----
-
-## 📋 Lab 01 Questions
-
-| # | Problem | Status |
-|---|---------|:------:|
-| 1 | Put Functions in Increasing Order of Growth | ✅ |
-| 2 | Fair vs Biased Coin Simulation | ✅ |
-| 3 | Bubble Sort Performance Analysis | ✅ |
-| 4 | Towers of Hanoi | ✅ |
-| 5 | Find the Partition Point | ✅ |
-| 6 | Element Uniqueness | ✅ |
-
----
-
-## 📂 Repository Structure
+## Repository map
 
 ```text
 DAA/
-│
-├── Lab01/
-│   ├── Q1/
-│   ├── Q2/
-│   ├── Q3/
-│   ├── Q4/
-│   ├── Q5/
-│   ├── Q6/
+├── LAB1/                       Lab 01
 │   └── README.md
-│
-└── README.md
+├── LAB2/                       Lab 02
+│   ├── Q1/                     Dictionary implementations and graph
+│   ├── Q2/                     Two-way vs. three-way merge sort
+│   └── Q3/                     Sequential vs. balanced k-array merge
+└── README.md                   You are here
 ```
 
----
+## Featured analysis
 
-## 🛠️ Tech Stack
+| Question | Algorithm comparison | Main files | Graph |
+| --- | --- | --- | --- |
+| [Lab 02 · Q2](LAB2/Q2/README.md) | `Θ(n log n)` two-way and three-way merge sort | [C program](LAB2/Q2/main.c) · [plotter](LAB2/Q2/plot_results.py) · [data](LAB2/Q2/data/benchmark_results.csv) | [PNG](LAB2/Q2/plots/merge_sort_complexity.png) |
+| [Lab 02 · Q3](LAB2/Q3/README.md) | sequential `Θ(nk²)` vs. balanced `Θ(nk log k)` merge | [sequential C](LAB2/Q3/01_sequentialMerge/main.c) · [balanced C](LAB2/Q3/02_balancedPairwiseMerge/main.c) · [plotter](LAB2/Q3/plot_benchmarks.py) | [PNG](LAB2/Q3/merge_k_arrays_complexity.png) |
 
-- **Language:** C, Python
-- **Compiler:** GCC
-- **IDE:** Visual Studio Code
-- **Version Control:** Git & GitHub
+## Tools
 
----
+- C11 with `cc`/GCC
+- Python 3 for data collection and charts
+- `matplotlib` for the benchmark figures
 
-## 🤖 Repository Utilities
-
-To maintain a clean and consistent repository structure, this project also includes a small automation script:
-
-### 📁 `LAB1/folders.py`
-
-A lightweight Python utility that automatically generates the directory structure for each lab question.
-
-**Features:**
-
-- Creates folders for **Q1 → Q6** automatically.
-- Generates starter `main.c` files for each question.
-- Generates `README.md` files inside every question directory.
-- Uses Python's built-in `pathlib` module for cross-platform filesystem operations.
-- Helps keep the repository organized and saves time when starting a new lab.
-
-Example structure generated:
-
-```text
-LAB1/
-├── Q1/
-│   ├── main.c
-│   └── README.md
-├── Q2/
-├── Q3/
-├── Q4/
-├── Q5/
-└── Q6/
-```
-
-Run the script using:
-
-```bash
-python3 LAB1/folders.py
-```
-
----
-
-## 🎯 Objectives
-
-- Understand algorithm design techniques.
-- Analyze time complexity and growth rates.
-- Compare algorithmic performance experimentally.
-- Implement classical algorithms in C.
-- Develop problem-solving skills using efficient algorithms.
-
----
-
-## 📈 Progress
-
-```text
-Lab 01  ████████████████████ 100%
-Overall ████░░░░░░░░░░░░░░░░  1 / N Labs
-```
-
----
-
-## 🏷️ Topics
-
-`daa` `algorithms` `design-and-analysis-of-algorithms` `c` `gcc` `problem-solving` `complexity-analysis` `bubble-sort` `towers-of-hanoi` `simulation` `binary-search` `college-lab` `semester-3` `computer-science`
-
----
-
-## ⭐ Future Labs
-
-- Lab 02
-- Lab 03
-- Lab 04
-- More algorithm implementations and analyses will be added throughout the semester.
-
----
-
-<div align="center">
-
-### ⭐ If you found this repository helpful, consider giving it a star!
-
-**Happy Coding! 🚀**
-
-</div>
+Run any program from the directory shown in its README. The question READMEs include exact commands and links to every related file.
