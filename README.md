@@ -4,7 +4,7 @@
 
 ![Language](https://img.shields.io/badge/Language-C%20%26%20Python-2563EB?style=for-the-badge)
 ![Semester](https://img.shields.io/badge/Semester-3-7C3AED?style=for-the-badge)
-![Labs](https://img.shields.io/badge/Labs-2%20Completed-059669?style=for-the-badge)
+![Labs](https://img.shields.io/badge/Labs-3%20Completed-059669?style=for-the-badge)
 ![Focus](https://img.shields.io/badge/Focus-Algorithms%20%26%20Analysis-D97706?style=for-the-badge)
 
 ### B.Tech CSE · Semester 3 · DAA Laboratory
@@ -19,14 +19,16 @@
 | --- | --- | --- | --- |
 | **Lab 01** | [Week 1 assignment PDF](LAB1/2026_Week1_DAA_Lab_01.pdf) | Growth, simulation, sorting, recursion, search | [Lab 01 README](LAB1/README.md) |
 | **Lab 02** | [Week 2 assignment PDF](LAB2/2026_Week2_DAA_Lab_02.pdf) | Dictionaries, merge sort, merging sorted arrays | [Lab 02 README](LAB2/README.md) |
+| **Lab 03** | [Week 3 assignment PDF](LAB3/2026_Week3_DAA_Lab_03.pdf) | Divide and conquer, searching, matrix multiplication, invariants | [Lab 03 README](LAB3/README.md) |
 
 ## 📈 Progress
 
 ```text
 Lab 01  ████████████████████  100%  6 / 6 questions
 Lab 02  ████████████████████  100%  3 / 3 questions
+Lab 03  ████████████████████  100%  6 / 6 questions
 ──────────────────────────────────────────────────────
-Current work  ████████████████████  100%  2 completed labs · 9 questions
+Current work  ████████████████████  100%  3 completed labs · 15 questions
 ```
 
 | Area | Status | Evidence |
@@ -34,7 +36,7 @@ Current work  ████████████████████  100%
 | C implementations | ✅ Complete | Every completed question has a linked `main.c`. |
 | Experimental data | ✅ Available | CSV files accompany benchmark-based questions. |
 | Visual analysis | ✅ Available | Complexity and comparison charts are saved as PNG files. |
-| Lab sheets | ✅ Linked | Both original assignment PDFs are available above. |
+| Lab sheets | ✅ Linked | All three original assignment PDFs are available above. |
 
 ## 🧪 Lab 01 — Foundations
 
@@ -68,6 +70,21 @@ Current work  ████████████████████  100%
   </tr>
 </table>
 
+## 🔍 Lab 03 — Divide and Conquer
+
+**Lab sheet:** [2026 Week 3 — DAA Lab 03](LAB3/2026_Week3_DAA_Lab_03.pdf) · **Full documentation:** [LAB3/README.md](LAB3/README.md)
+
+| # | Question | Key result | Files |
+| :---: | --- | --- | --- |
+| 1 | [Binary vs. ternary search](LAB3/Q1/README.md) | Both are `O(log n)`; binary search needs fewer comparisons on average | [benchmark C](LAB3/Q1/fun.c) · [interactive C](LAB3/Q1/main.c) |
+| 2 | [Defective coin search](LAB3/Q2/README.md) | Candidate coins are halved in `O(log n)` balance operations | [C](LAB3/Q2/main.c) |
+| 3 | [Maximum and minimum](LAB3/Q3/README.md) | Divide and conquer uses about `3n/2` comparisons | [C](LAB3/Q3/main.c) |
+| 4 | [Strassen matrix multiplication](LAB3/Q4/README.md) | Seven subproblems give `O(n^log2(7))` time | [C](LAB3/Q4/main.c) |
+| 5 | [Special-pattern matrix multiplication](LAB3/Q5/README.md) | Recursive block symmetry yields `O(n^2)` time | [C](LAB3/Q5/main.c) |
+| 6 | [Selection sort and loop invariant](LAB3/Q6/README.md) | Exactly `n(n - 1) / 2` comparisons | [C](LAB3/Q6/main.c) |
+
+Lab 3 setup helper: [folders.py](LAB3/folders.py).
+
 ## 📁 Repository structure
 
 ```text
@@ -81,6 +98,10 @@ DAA/
 │   ├── Q1/                         Dictionary implementations
 │   ├── Q2/                         Two-way vs. three-way merge sort
 │   ├── Q3/                         Sequential vs. balanced k-array merge
+│   └── README.md
+├── LAB3/
+│   ├── 2026_Week3_DAA_Lab_03.pdf   Assignment sheet
+│   ├── Q1/ … Q6/                   Programs and question READMEs
 │   └── README.md
 └── README.md                        You are here
 ```
