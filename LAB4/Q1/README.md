@@ -5,7 +5,7 @@ Given $n$ pairs of items as input, where each item consists of a **number** and 
 
 The objective is to sort the items by color such that:
 1. All **Red** items appear before all **Blue** items, which appear before all **Yellow** items ($\text{Red} \to \text{Blue} \to \text{Yellow}$).
-2. For items sharing the same color, their original sorted order by number is preserved (**Stability**).****
+2. For items sharing the same color, their original sorted order by number is preserved (**Stability**).
 3. The algorithm runs in **$O(n)$ time complexity**.
 
 ---
