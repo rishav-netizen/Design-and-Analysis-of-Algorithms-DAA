@@ -4,14 +4,14 @@
 
 ![Language](https://img.shields.io/badge/Language-C%20%26%20Python-2563EB?style=for-the-badge)
 ![Semester](https://img.shields.io/badge/Semester-3-7C3AED?style=for-the-badge)
-![Labs](https://img.shields.io/badge/Labs-3%20Completed-059669?style=for-the-badge)
+![Labs](https://img.shields.io/badge/Labs-4%20Completed-059669?style=for-the-badge)
 ![Focus](https://img.shields.io/badge/Focus-Algorithms%20%26%20Analysis-D97706?style=for-the-badge)
 
 ### B.Tech CSE · Semester 3 · DAA Laboratory
 
 </div>
 
-> A collection of Design and Analysis of Algorithms laboratory work: C implementations, Python benchmark tools, result data, graphs, and short explanations for every completed question.
+> A collection of Design and Analysis of Algorithms laboratory work: C implementations, Python benchmark tools, result data, graphs, and detailed explanations for every completed question.
 ****
 ## 📍 Quick navigation
 
@@ -20,6 +20,7 @@
 | **Lab 01** | [Week 1 assignment PDF](LAB1/2026_Week1_DAA_Lab_01.pdf) | Growth, simulation, sorting, recursion, search | [Lab 01 README](LAB1/README.md) |
 | **Lab 02** | [Week 2 assignment PDF](LAB2/2026_Week2_DAA_Lab_02.pdf) | Dictionaries, merge sort, merging sorted arrays | [Lab 02 README](LAB2/README.md) |
 | **Lab 03** | [Week 3 assignment PDF](LAB3/2026_Week3_DAA_Lab_03.pdf) | Divide and conquer, searching, matrix multiplication, invariants | [Lab 03 README](LAB3/README.md) |
+| **Lab 04** | [Week 4 assignment PDF](LAB4/2026_Week4_DAA_Lab_04.pdf) | Applications of sorting, two pointers, k-sum, sweep line, intervals | [Lab 04 README](LAB4/README.md) |
 
 ## 📈 Progress
 
@@ -27,8 +28,9 @@
 Lab 01  ████████████████████  100%  6 / 6 questions
 Lab 02  ████████████████████  100%  3 / 3 questions
 Lab 03  ████████████████████  100%  6 / 6 questions
+Lab 04  ████████████████████  100%  6 / 6 questions
 ──────────────────────────────────────────────────────
-Current work  ████████████████████  100%  3 completed labs · 15 questions
+Current work  ████████████████████  100%  4 completed labs · 21 questions
 ```
 
 | Area | Status | Evidence |
@@ -36,7 +38,7 @@ Current work  ████████████████████  100%
 | C implementations | ✅ Complete | Every completed question has a linked `main.c`. |
 | Experimental data | ✅ Available | CSV files accompany benchmark-based questions. |
 | Visual analysis | ✅ Available | Complexity and comparison charts are saved as PNG files. |
-| Lab sheets | ✅ Linked | All three original assignment PDFs are available above. |
+| Lab sheets | ✅ Linked | All four original assignment PDFs are available above. |
 
 ## 🧪 Lab 01 — Foundations
 
@@ -85,6 +87,21 @@ Current work  ████████████████████  100%
 
 Lab 3 setup helper: [folders.py](LAB3/folders.py).
 
+## 🎯 Lab 04 — Applications of Sorting
+
+**Lab sheet:** [2026 Week 4 — DAA Lab 04](LAB4/2026_Week4_DAA_Lab_04.pdf) · **Full documentation:** [LAB4/README.md](LAB4/README.md)
+
+| # | Question | Key result | Files |
+| :---: | --- | --- | --- |
+| 1 | [Stable Color Sort](LAB4/Q1/README.md) | Counting sort bucket placement preserves numerical stability in `O(n)` | [C](LAB4/Q1/main.c) |
+| 2 | [Pair Sum from Two Sets](LAB4/Q2/README.md) | Two-pointer scan on sorted arrays finds target pair in `O(n log n)` | [C](LAB4/Q2/main.c) |
+| 3 | [k-Sum Problem](LAB4/Q3/README.md) | Recursive $(k-1)$ selection + binary search verifies $k$-sum in `O(n^(k-1) log n)` | [C](LAB4/Q3/main.c) |
+| 4 | [Simultaneous Party Guests](LAB4/Q4/README.md) | Event-driven sweep line finds peak simultaneous attendees in `O(n log n)` | [C](LAB4/Q4/main.c) |
+| 5 | [Merge Overlapping Intervals](LAB4/Q5/README.md) | Sorting by start time enables linear `O(n)` interval merging in `O(n log n)` total | [C](LAB4/Q5/main.c) |
+| 6 | [Point in Maximum Intervals](LAB4/Q6/README.md) | Event sweep line with inclusive endpoint tie-breaking in `O(n log n)` | [C](LAB4/Q6/main.c) |
+
+Lab 4 setup helper: [folders.py](LAB4/folders.py).
+
 ## 📁 Repository structure
 
 ```text
@@ -102,6 +119,12 @@ DAA/
 ├── LAB3/
 │   ├── 2026_Week3_DAA_Lab_03.pdf   Assignment sheet
 │   ├── Q1/ … Q6/                   Programs and question READMEs
+│   ├── folders.py                  Setup script
+│   └── README.md
+├── LAB4/
+│   ├── 2026_Week4_DAA_Lab_04.pdf   Assignment sheet
+│   ├── Q1/ … Q6/                   Programs and question READMEs
+│   ├── folders.py                  Setup script
 │   └── README.md
 └── README.md                        You are here
 ```
@@ -117,7 +140,7 @@ Most questions can be built with `cc -std=c11 -Wall -Wextra main.c -o program`. 
 
 ## 🏷️ Tags
 
-`design-and-analysis-of-algorithms` `daa` `algorithms` `data-structures` `asymptotic-analysis` `divide-and-conquer` `merge-sort` `recursion` `benchmarking` `c-programming` `python` `matplotlib` `btech-cse` `semester-3`
+`design-and-analysis-of-algorithms` `daa` `algorithms` `data-structures` `asymptotic-analysis` `divide-and-conquer` `sorting-applications` `two-pointers` `sweep-line` `interval-merging` `merge-sort` `recursion` `benchmarking` `c-programming` `python` `matplotlib` `btech-cse` `semester-3`
 
 <div align="center">
 
