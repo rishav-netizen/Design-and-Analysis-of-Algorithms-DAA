@@ -4,7 +4,7 @@
 
 ![Language](https://img.shields.io/badge/Language-C%20%26%20Python-2563EB?style=for-the-badge)
 ![Semester](https://img.shields.io/badge/Semester-3-7C3AED?style=for-the-badge)
-![Labs](https://img.shields.io/badge/Labs-4%20Completed-059669?style=for-the-badge)
+![Labs](https://img.shields.io/badge/Labs-5%20Completed-059669?style=for-the-badge)
 ![Focus](https://img.shields.io/badge/Focus-Algorithms%20%26%20Analysis-D97706?style=for-the-badge)
 
 ### B.Tech CSE · Semester 3 · DAA Laboratory
@@ -21,6 +21,7 @@
 | **Lab 02** | [Week 2 assignment PDF](LAB2/2026_Week2_DAA_Lab_02.pdf) | Dictionaries, merge sort, merging sorted arrays | [Lab 02 README](LAB2/README.md) |
 | **Lab 03** | [Week 3 assignment PDF](LAB3/2026_Week3_DAA_Lab_03.pdf) | Divide and conquer, searching, matrix multiplication, invariants | [Lab 03 README](LAB3/README.md) |
 | **Lab 04** | [Week 4 assignment PDF](LAB4/2026_Week4_DAA_Lab_04.pdf) | Applications of sorting, two pointers, k-sum, sweep line, intervals | [Lab 04 README](LAB4/README.md) |
+| **Lab 05** | [Week 5 questions image](LAB5/questions.png) | Selection without sorting, Quickselect, Quick Sort & Heap Sort file I/O | [Lab 05 README](LAB5/README.md) |
 
 ## 📈 Progress
 
@@ -29,8 +30,9 @@ Lab 01  ████████████████████  100%  6 / 
 Lab 02  ████████████████████  100%  3 / 3 questions
 Lab 03  ████████████████████  100%  6 / 6 questions
 Lab 04  ████████████████████  100%  6 / 6 questions
+Lab 05  ████████████████████  100%  4 / 4 questions
 ──────────────────────────────────────────────────────
-Current work  ████████████████████  100%  4 completed labs · 21 questions
+Current work  ████████████████████  100%  5 completed labs · 25 questions
 ```
 
 | Area | Status | Evidence |
@@ -102,6 +104,19 @@ Lab 3 setup helper: [folders.py](LAB3/folders.py).
 
 Lab 4 setup helper: [folders.py](LAB4/folders.py).
 
+## ⚡ Lab 05 — Selection & Advanced Sorting
+
+**Lab sheet:** [Questions Sheet (Image)](LAB5/questions.png) · **Full documentation:** [LAB5/README.md](LAB5/README.md)
+
+| # | Question | Key result | Files |
+| :---: | --- | --- | --- |
+| 1 | [Find Median Without Sorting](LAB5/Q1/README.md) | Quickselect finds exact median in expected `O(n)` time | [C](LAB5/Q1/main.c) |
+| 2 | [Find K'th Smallest Element](LAB5/Q2/README.md) | Hoare's Selection finds the $K$-th order statistic in expected `O(n)` time | [C](LAB5/Q2/main.c) |
+| 3 | [Quick Sort with File I/O](LAB5/Q3/README.md) | Sorts $N$ random integers from file via divide-and-conquer partition in `O(n log n)` | [C](LAB5/Q3/main.c) |
+| 4 | [Heap Sort with File I/O](LAB5/Q4/README.md) | Max-heap construction in `O(n)` + extraction guarantees worst-case `O(n log n)` | [C](LAB5/Q4/main.c) |
+
+Lab 5 setup helper: [folders.py](LAB5/folders.py).
+
 ## 📁 Repository structure
 
 ```text
@@ -124,6 +139,11 @@ DAA/
 ├── LAB4/
 │   ├── 2026_Week4_DAA_Lab_04.pdf   Assignment sheet
 │   ├── Q1/ … Q6/                   Programs and question READMEs
+│   ├── folders.py                  Setup script
+│   └── README.md
+├── LAB5/
+│   ├── questions.png               Assignment sheet
+│   ├── Q1/ … Q4/                   Programs and question READMEs
 │   ├── folders.py                  Setup script
 │   └── README.md
 └── README.md                        You are here
