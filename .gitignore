@@ -2,3 +2,4 @@
 *.exe
 main
 mine.c
+.DS_score
