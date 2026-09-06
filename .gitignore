@@ -2,4 +2,4 @@
 *.exe
 main
 mine.c
-.DS_score
+.DS_score.DS_Store
