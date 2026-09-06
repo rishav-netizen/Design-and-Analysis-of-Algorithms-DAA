@@ -26,6 +26,6 @@ Lab 05  ████████████████████  100%  4 / 
 
 ## Supporting file
 
-- [folders.py](folders.py) / [main.py](main.py): Directory setup and scaffolding script for Lab 5.
+- [folders.py](folders.py): Directory setup and scaffolding script for Lab 5.
 
 Each question README includes the detailed problem statement, algorithmic approach, time/space complexity analysis, build commands, and sample execution traces. Refer to [questions.png](questions.png) for the original lab assignment prompt.
