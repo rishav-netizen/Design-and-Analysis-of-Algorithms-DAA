@@ -4,7 +4,7 @@
 
 ![Language](https://img.shields.io/badge/Language-C%20%26%20Python-2563EB?style=for-the-badge)
 ![Semester](https://img.shields.io/badge/Semester-3-7C3AED?style=for-the-badge)
-![Labs](https://img.shields.io/badge/Labs-5%20Completed-059669?style=for-the-badge)
+![Labs](https://img.shields.io/badge/Labs-6%20Completed-059669?style=for-the-badge)
 ![Focus](https://img.shields.io/badge/Focus-Algorithms%20%26%20Analysis-D97706?style=for-the-badge)
 
 ### B.Tech CSE · Semester 3 · DAA Laboratory
@@ -22,6 +22,7 @@
 | **Lab 03** | [Week 3 assignment PDF](LAB3/2026_Week3_DAA_Lab_03.pdf) | Divide and conquer, searching, matrix multiplication, invariants | [Lab 03 README](LAB3/README.md) |
 | **Lab 04** | [Week 4 assignment PDF](LAB4/2026_Week4_DAA_Lab_04.pdf) | Applications of sorting, two pointers, k-sum, sweep line, intervals | [Lab 04 README](LAB4/README.md) |
 | **Lab 05** | [Week 5 questions image](LAB5/questions.png) | Selection without sorting, Quickselect, Quick Sort & Heap Sort file I/O | [Lab 05 README](LAB5/README.md) |
+| **Lab 06** | [Week 6 assignment PDF](LAB6/2026_Week6_DAA_Lab_06.pdf) | Dynamic Programming, arrays, matrix, FFT, block reversal sort | [Lab 06 README](LAB6/README.md) |
 
 ## 📈 Progress
 
@@ -31,8 +32,9 @@ Lab 02  ████████████████████  100%  3 / 
 Lab 03  ████████████████████  100%  6 / 6 questions
 Lab 04  ████████████████████  100%  6 / 6 questions
 Lab 05  ████████████████████  100%  4 / 4 questions
+Lab 06  ████████████████████  100%  8 / 8 questions
 ──────────────────────────────────────────────────────
-Current work  ████████████████████  100%  5 completed labs · 25 questions
+Current work  ████████████████████  100%  6 completed labs · 33 questions
 ```
 
 | Area | Status | Evidence |
@@ -117,6 +119,23 @@ Lab 4 setup helper: [folders.py](LAB4/folders.py).
 
 Lab 5 setup helper: [folders.py](LAB5/folders.py).
 
+## 📚 Lab 06 — Dynamic Programming & Algorithm Analysis
+
+**Lab sheet:** [2026 Week 6 — DAA Lab 06](LAB6/2026_Week6_DAA_Lab_06.pdf) · **Full documentation:** [LAB6/README.md](LAB6/README.md)
+
+| Set / # | Question | Key result | Files |
+| :---: | --- | --- | --- |
+| S1/1 | [N-th Fibonacci Number](LAB6/Set1/Q1/README.md) | Dynamic Programming (Tabulation) computes $F(n)$ efficiently in `O(n)` time | [C](LAB6/Set1/Q1/main.c) |
+| S1/2 | [0/1 Knapsack Problem](LAB6/Set1/Q2/README.md) | Tabulation DP finds optimal items subset in `O(n * W)` time | [C](LAB6/Set1/Q2/main.c) |
+| S1/3 | [Longest Common Subsequence](LAB6/Set1/Q3/README.md) | 2D DP grid determines LCS string length & sequence in `O(m * n)` | [C](LAB6/Set1/Q3/main.c) |
+| S1/4 | [Matrix Chain Multiplication](LAB6/Set1/Q4/README.md) | DP optimization dictates best parenthesization grouping in `O(N^3)` | [C](LAB6/Set1/Q4/main.c) |
+| S2/1 | [1D Array Operations](LAB6/Set2/Q1/README.md) | Implements statistics functions and partitions deriving worst-case `O(n)` to `O(n^2)` | [C](LAB6/Set2/Q1/main.c) |
+| S2/2 | [2D Square Matrix Operations](LAB6/Set2/Q2/README.md) | Validates complex matrix algorithms including Gaussian Determinant in `O(n^3)` | [C](LAB6/Set2/Q2/main.c) |
+| S2/3 | [FFT Vector Convolution](LAB6/Set2/Q3/README.md) | Divide & Conquer Fast Fourier Transform achieves convolution in `O(n log n)` | [C](LAB6/Set2/Q3/main.c) |
+| S2/4 | [Block Reversal Merge Sort](LAB6/Set2/Q4/README.md) | Hybrid Merge Sort sorts arrays solely via sequence flips in `O(n log^2 n)` | [C](LAB6/Set2/Q4/main.c) |
+
+Lab 6 setup helper: [folders.py](LAB6/folders.py).
+
 ## 📁 Repository structure
 
 ```text
@@ -146,6 +165,12 @@ DAA/
 │   ├── Q1/ … Q4/                   Programs and question READMEs
 │   ├── folders.py                  Setup script
 │   └── README.md
+├── LAB6/
+│   ├── 2026_Week6_DAA_Lab_06.pdf   Assignment sheet
+│   ├── Set1/                       Dynamic Programming
+│   ├── Set2/                       Algorithm Analysis & Complexities
+│   ├── folders.py                  Setup script
+│   └── README.md
 └── README.md                        You are here
 ```
 
@@ -160,7 +185,7 @@ Most questions can be built with `cc -std=c11 -Wall -Wextra main.c -o program`. 
 
 ## 🏷️ Tags
 
-`design-and-analysis-of-algorithms` `daa` `algorithms` `data-structures` `asymptotic-analysis` `divide-and-conquer` `sorting-applications` `two-pointers` `sweep-line` `interval-merging` `merge-sort` `recursion` `benchmarking` `c-programming` `python` `matplotlib` `btech-cse` `semester-3`
+`design-and-analysis-of-algorithms` `daa` `algorithms` `data-structures` `asymptotic-analysis` `divide-and-conquer` `sorting-applications` `two-pointers` `sweep-line` `interval-merging` `merge-sort` `recursion` `benchmarking` `c-programming` `python` `matplotlib` `btech-cse` `semester-3` `dynamic-programming` `fft`
 
 <div align="center">
 
