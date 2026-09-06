@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+typedef char* string;
+
 typedef struct Dict
 {
     int *A;
@@ -9,7 +11,7 @@ typedef struct Dict
 } Dict;
 
 // Function Prototypes
-void Input(Dict *D);
+Dict Input(string name);
 void Display(Dict D);
 void Insert(Dict *D, int x);
 int Search(Dict *D, int key);
@@ -21,21 +23,12 @@ int Successor(Dict *D, int key);
 
 int main()
 {
-    Dict D;
-    int n, key;
-
-    printf("Enter size of dictionary: ");
-    scanf("%d", &n);
-
-    D.size = n;
-    D.length = 0;
-    D.A = (int *)malloc(n * sizeof(int));
-
-    Input(&D);
+    Dict D = Input("D");
 
     printf("\nDictionary:\n");
     Display(D);
 
+    int key;
     printf("\nEnter element to insert: ");
     scanf("%d", &key);
     Insert(&D, key);
@@ -84,26 +77,35 @@ int main()
 }
 
 // Input elements
-void Input(Dict *D)
+Dict Input(string name)
 {
-    int len;
+    Dict arr;
 
-    printf("Enter number of elements: ");
-    scanf("%d", &len);
+    printf("Enter array %s size: ", name);
+    scanf("%d", &arr.size);
 
-    while (len < 0 || len > D->size)
+    arr.A = (int *)malloc(arr.size * sizeof(int));
+
+    int length;
+    printf("Enter the number of numbers: ");
+    scanf("%d", &length);
+
+    while (length < 0 || length > arr.size)
     {
-        printf("Invalid input! Enter again: ");
-        scanf("%d", &len);
+        printf("Invalid input! Length must be smaller than size!\n");
+        printf("Try again: ");
+        scanf("%d", &length);
     }
 
-    D->length = len;
+    arr.length = length;
 
-    for (int i = 0; i < len; i++)
+    for (int i = 0; i < arr.length; i++)
     {
         printf("Enter element %d: ", i + 1);
-        scanf("%d", &D->A[i]);
+        scanf("%d", &arr.A[i]);
     }
+
+    return arr;
 }
 
 // Display dictionary
