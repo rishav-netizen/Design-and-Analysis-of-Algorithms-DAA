@@ -4,7 +4,7 @@
 
 ![Language](https://img.shields.io/badge/Language-C%20%26%20Python-2563EB?style=for-the-badge)
 ![Semester](https://img.shields.io/badge/Semester-3-7C3AED?style=for-the-badge)
-![Labs](https://img.shields.io/badge/Labs-6%20Completed-059669?style=for-the-badge)
+![Labs](https://img.shields.io/badge/Labs-7%20Completed-059669?style=for-the-badge)
 ![Focus](https://img.shields.io/badge/Focus-Algorithms%20%26%20Analysis-D97706?style=for-the-badge)
 
 ### B.Tech CSE · Semester 3 · DAA Laboratory
@@ -23,6 +23,7 @@
 | **Lab 04** | [Week 4 assignment PDF](LAB4/2026_Week4_DAA_Lab_04.pdf) | Applications of sorting, two pointers, k-sum, sweep line, intervals | [Lab 04 README](LAB4/README.md) |
 | **Lab 05** | [Week 5 questions image](LAB5/questions.png) | Selection without sorting, Quickselect, Quick Sort & Heap Sort file I/O | [Lab 05 README](LAB5/README.md) |
 | **Lab 06** | [Week 6 assignment PDF](LAB6/2026_Week6_DAA_Lab_06.pdf) | Dynamic Programming, arrays, matrix, FFT, block reversal sort | [Lab 06 README](LAB6/README.md) |
+| **Lab 07** | [Week 7 assignment PDF](LAB7/2026_Week7_DAA_Lab_07.pdf) | Puzzle algorithms, Frame-Stewart, Gray code switches, moving target, MCM | [Lab 07 README](LAB7/README.md) |
 
 ## 📈 Progress
 
@@ -33,8 +34,9 @@ Lab 03  ████████████████████  100%  6 / 
 Lab 04  ████████████████████  100%  6 / 6 questions
 Lab 05  ████████████████████  100%  4 / 4 questions
 Lab 06  ████████████████████  100%  8 / 8 questions
+Lab 07  ████████████████████  100%  7 / 7 questions
 ──────────────────────────────────────────────────────
-Current work  ████████████████████  100%  6 completed labs · 33 questions
+Current work  ████████████████████  100%  7 completed labs · 40 questions
 ```
 
 | Area | Status | Evidence |
@@ -136,6 +138,22 @@ Lab 5 setup helper: [folders.py](LAB5/folders.py).
 
 Lab 6 setup helper: [folders.py](LAB6/folders.py).
 
+## 🧩 Lab 07 — Algorithm Application Questions Based on Puzzles
+
+**Lab sheet:** [2026 Week 7 — DAA Lab 07](LAB7/2026_Week7_DAA_Lab_07.pdf) · **Full documentation:** [LAB7/README.md](LAB7/README.md)
+
+| # | Question | Key result | Files |
+| :---: | --- | --- | --- |
+| 1 | [Invert the Coin-Triangle](LAB7/Q1/README.md) | Equilateral lattice overlap maximization yields minimum $\lfloor \frac{n(n+1)}{6} \rfloor$ moves | [C](LAB7/Q1/main.c) |
+| 2 | [Super Egg Testing Experiment](LAB7/Q2/README.md) | Generalized DP finds minimum worst-case drops for $E$ eggs & $F$ floors (14 drops for 2 eggs, 100 floors) | [C](LAB7/Q2/main.c) |
+| 3 | [Reve's Puzzle (4-Peg Hanoi)](LAB7/Q3/README.md) | Frame-Stewart algorithm solves 8 disks in 33 moves, generalized to $n$ disks | [C](LAB7/Q3/main.c) |
+| 4 | [Security Switches](LAB7/Q4/README.md) | Baguenaudier / Gray code recurrence deactivates $n$ military switches in $\lfloor \frac{2^{n+1}}{3} \rfloor$ moves | [C](LAB7/Q4/main.c) |
+| 5 | [Hitting a Moving Target](LAB7/Q5/README.md) | Two-phase parity sweep intercepts hidden target along $n$ spots in $\le 2n - 4$ shots | [C](LAB7/Q5/main.c) |
+| 6 | [The Best Time to be Alive](LAB7/Q6/README.md) | Event sweep-line with custom tie-breaking determines peak concurrent prominent scientists in $O(N \log N)$ | [C](LAB7/Q6/main.c) |
+| 7 | [Matrix Chain Multiplication (MCM)](LAB7/Q7/README.md) | Tabulation DP computes optimal scalar multiplications and parenthesization ordering in $O(n^3)$ | [C](LAB7/Q7/main.c) |
+
+Lab 7 setup helper: [folders.py](LAB7/folders.py).
+
 ## 📁 Repository structure
 
 ```text
@@ -169,6 +187,11 @@ DAA/
 │   ├── 2026_Week6_DAA_Lab_06.pdf   Assignment sheet
 │   ├── Set1/                       Dynamic Programming
 │   ├── Set2/                       Algorithm Analysis & Complexities
+│   ├── folders.py                  Setup script
+│   └── README.md
+├── LAB7/
+│   ├── 2026_Week7_DAA_Lab_07.pdf   Assignment sheet
+│   ├── Q1/ … Q7/                   Programs and question READMEs
 │   ├── folders.py                  Setup script
 │   └── README.md
 └── README.md                        You are here
