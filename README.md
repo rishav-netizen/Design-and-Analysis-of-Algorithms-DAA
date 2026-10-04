@@ -4,7 +4,7 @@
 
 ![Language](https://img.shields.io/badge/Language-C%20%26%20Python-2563EB?style=for-the-badge)
 ![Semester](https://img.shields.io/badge/Semester-3-7C3AED?style=for-the-badge)
-![Labs](https://img.shields.io/badge/Labs-7%20Completed-059669?style=for-the-badge)
+![Labs](https://img.shields.io/badge/Labs-8%20Completed-059669?style=for-the-badge)
 ![Focus](https://img.shields.io/badge/Focus-Algorithms%20%26%20Analysis-D97706?style=for-the-badge)
 
 ### B.Tech CSE · Semester 3 · DAA Laboratory
@@ -12,6 +12,8 @@
 </div>
 
 > A collection of Design and Analysis of Algorithms laboratory work: C implementations, Python benchmark tools, result data, graphs, and detailed explanations for every completed question.
+> 
+> [📋 **DAA Lab Record Official Index Sheet (PDF)**](DAA_Lab_Index_Sheet.pdf)
 ****
 ## 📍 Quick navigation
 
@@ -23,7 +25,8 @@
 | **Lab 04** | [Week 4 assignment PDF](LAB4/2026_Week4_DAA_Lab_04.pdf) | Applications of sorting, two pointers, k-sum, sweep line, intervals | [Lab 04 README](LAB4/README.md) |
 | **Lab 05** | [Week 5 questions image](LAB5/questions.png) | Selection without sorting, Quickselect, Quick Sort & Heap Sort file I/O | [Lab 05 README](LAB5/README.md) |
 | **Lab 06** | [Week 6 assignment PDF](LAB6/2026_Week6_DAA_Lab_06.pdf) | Dynamic Programming, arrays, matrix, FFT, block reversal sort | [Lab 06 README](LAB6/README.md) |
-| **Lab 07** | [Week 7 assignment PDF](LAB7/2026_Week7_DAA_Lab_07.pdf) | Puzzle algorithms, Frame-Stewart, Gray code switches, moving target, MCM | [Lab 07 README](LAB7/README.md) |
+| **Lab 07** | [Assignment PDF](LAB7/2026_Week7_DAA_Lab_07.pdf) · [Report PDF](LAB7/DAA_Lab_07_Report.pdf) | Puzzle algorithms, Frame-Stewart, Gray code switches, moving target, MCM | [Lab 07 README](LAB7/README.md) |
+| **Lab 08** | [Week 8 assignment PDF](LAB8/2026_Week8_DAA_Lab_08.pdf) | Dynamic Programming, coin change, LCS, LIS, MSIS, edit distance, rod cutting, OBST, Collatz | [Lab 08 README](LAB8/README.md) |
 
 ## 📈 Progress
 
@@ -35,8 +38,9 @@ Lab 04  ████████████████████  100%  6 / 
 Lab 05  ████████████████████  100%  4 / 4 questions
 Lab 06  ████████████████████  100%  8 / 8 questions
 Lab 07  ████████████████████  100%  7 / 7 questions
+Lab 08  ████████████████████  100%  9 / 9 questions
 ──────────────────────────────────────────────────────
-Current work  ████████████████████  100%  7 completed labs · 40 questions
+Current work  ████████████████████  100%  8 completed labs · 49 questions
 ```
 
 | Area | Status | Evidence |
@@ -154,6 +158,24 @@ Lab 6 setup helper: [folders.py](LAB6/folders.py).
 
 Lab 7 setup helper: [folders.py](LAB7/folders.py).
 
+## 💡 Lab 08 — Dynamic Programming Design Paradigm
+
+**Lab sheet:** [2026 Week 8 — DAA Lab 08](LAB8/2026_Week8_DAA_Lab_08.pdf) · **Full documentation:** [LAB8/README.md](LAB8/README.md)
+
+| # | Question | Key result | Files |
+| :---: | --- | --- | --- |
+| 1 | [Minimum Coin Change](LAB8/Q1/README.md) | Tabulation DP finding optimal coin count and chosen coins in $O(n \cdot V)$ | [C](LAB8/Q1/main.c) |
+| 2 | [Coin Change: Total Number of Ways](LAB8/Q2/README.md) | Unbounded combination DP counting total distinct partitions in $O(n \cdot V)$ | [C](LAB8/Q2/main.c) |
+| 3 | [Longest Common Subsequence (LCS)](LAB8/Q3/README.md) | 2D tabulation DP with directional traceback matrix in $O(m \cdot n)$ | [C](LAB8/Q3/main.c) |
+| 4 | [Longest Increasing Subsequence (LIS)](LAB8/Q4/README.md) | Dual $O(n^2)$ tabulation DP + $O(n \log n)$ patience sorting with reconstruction | [C](LAB8/Q4/main.c) |
+| 5 | [Maximum Sum Increasing Subsequence (MSIS)](LAB8/Q5/README.md) | Dynamic programming maximizing subsequence sum in $O(n^2)$ with element reconstruction | [C](LAB8/Q5/main.c) |
+| 6 | [Edit Distance with Traceback Information](LAB8/Q6/README.md) | Levenshtein distance DP with step-by-step alignment script (Insert, Delete, Replace, Match) | [C](LAB8/Q6/main.c) |
+| 7 | [Rod Cutting with Reconstruction](LAB8/Q7/README.md) | Revenue maximization in $O(n^2)$ with complete piece decomposition breakdown | [C](LAB8/Q7/main.c) |
+| 8 | [Optimal Binary Search Trees (OBST)](LAB8/Q8/README.md) | CLRS 15.5 tabulation DP computing $e, w, root$ tables and tree hierarchy in $O(n^3)$ | [C](LAB8/Q8/main.c) |
+| 9 | [Collatz Conjecture (Open Unsolved Problem)](LAB8/Q9/README.md) | Modular dynamical orbit simulator with overflow protection and interval $[a, b]$ analysis | [C](LAB8/Q9/main.c) |
+
+Lab 8 setup helper: [folders.py](LAB8/folders.py).
+
 ## 📁 Repository structure
 
 ```text
@@ -192,6 +214,11 @@ DAA/
 ├── LAB7/
 │   ├── 2026_Week7_DAA_Lab_07.pdf   Assignment sheet
 │   ├── Q1/ … Q7/                   Programs and question READMEs
+│   ├── folders.py                  Setup script
+│   └── README.md
+├── LAB8/
+│   ├── 2026_Week8_DAA_Lab_08.pdf   Assignment sheet
+│   ├── Q1/ … Q9/                   Programs and question READMEs
 │   ├── folders.py                  Setup script
 │   └── README.md
 └── README.md                        You are here
