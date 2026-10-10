@@ -182,7 +182,7 @@ The candies to each child is: {2, 1, 2}
 ```text
 Enter the number of children: 5
 Do you wanna: 	(0) Enter ratings or
-		        (1) Have it randomly filled?
+		    (1) Have it randomly filled?
 Choice: 0
 Enter the ratings: 12 8 5 2 1
 The ratings of the children are: {12, 8, 5, 2, 1}
@@ -206,7 +206,7 @@ The candies to each child is: {5, 4, 3, 2, 1}
 ```text
 Enter the number of children: 3
 Do you wanna: 	(0) Enter ratings or
-		        (1) Have it randomly filled?
+		    (1) Have it randomly filled?
 Choice: 0
 Enter the ratings: 1 2 2
 The ratings of the children are: {1, 2, 2}
@@ -222,7 +222,7 @@ The candies to each child is: {1, 2, 1}
 ```text
 Enter the number of children: 8
 Do you wanna: 	(0) Enter ratings or
-		        (1) Have it randomly filled?
+		    (1) Have it randomly filled?
 Choice: 1
 Enter the lower and upper limits for random ratings: 10 50
 The ratings of the children are: {14, 28, 45, 12, 33, 41, 41, 19}
