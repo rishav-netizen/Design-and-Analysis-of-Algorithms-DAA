@@ -12,7 +12,7 @@
 
 > This lab explores algorithmic application questions based on classical mathematical and computational puzzles (Level: Medium and Hard), deriving compact mathematical formulas, choosing optimal input representations, and validating procedures in C with rigorous complexity analyses.
 
-[← Repository home](../README.md) · [Lab 07 PDF](2026_Week7_DAA_Lab_07.pdf)
+[← Repository home](../README.md) · [Lab 07 Assignment Sheet](2026_Week7_DAA_Lab_07.pdf) · [📄 Lab 07 Solutions Report PDF](DAA_Lab_07_Report.pdf)
 
 ```text
 Lab 07  █████████████████████  100%  7 / 7 questions complete
