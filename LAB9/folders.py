@@ -5,7 +5,7 @@ finalQuestion = 10
 
 baseDirectory = Path(__file__).parent
 
-for i in range(initialQuestion, finalQuestion):
+for i in range(initialQuestion, finalQuestion + 1):
     file = baseDirectory / f"Q{i}"
     file.mkdir(exist_ok=True)
     (file / "main.c").touch(exist_ok=True)
