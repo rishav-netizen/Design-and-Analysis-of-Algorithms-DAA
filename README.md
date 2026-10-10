@@ -4,7 +4,7 @@
 
 ![Language](https://img.shields.io/badge/Language-C%20%26%20Python-2563EB?style=for-the-badge)
 ![Semester](https://img.shields.io/badge/Semester-3-7C3AED?style=for-the-badge)
-![Labs](https://img.shields.io/badge/Labs-8%20Completed-059669?style=for-the-badge)
+![Labs](https://img.shields.io/badge/Labs-9%20Completed-059669?style=for-the-badge)
 ![Focus](https://img.shields.io/badge/Focus-Algorithms%20%26%20Analysis-D97706?style=for-the-badge)
 
 ### B.Tech CSE · Semester 3 · DAA Laboratory
@@ -27,6 +27,7 @@
 | **Lab 06** | [Week 6 assignment PDF](LAB6/2026_Week6_DAA_Lab_06.pdf) | Dynamic Programming, arrays, matrix, FFT, block reversal sort | [Lab 06 README](LAB6/README.md) |
 | **Lab 07** | [Assignment PDF](LAB7/2026_Week7_DAA_Lab_07.pdf) · [Report PDF](LAB7/DAA_Lab_07_Report.pdf) | Puzzle algorithms, Frame-Stewart, Gray code switches, moving target, MCM | [Lab 07 README](LAB7/README.md) |
 | **Lab 08** | [Week 8 assignment PDF](LAB8/2026_Week8_DAA_Lab_08.pdf) | Dynamic Programming, coin change, LCS, LIS, MSIS, edit distance, rod cutting, OBST, Collatz | [Lab 08 README](LAB8/README.md) |
+| **Lab 09** | [Week 9 assignment PDF](LAB9/2026_Week9_DAA_Lab_09.pdf) | Greedy Design Paradigm, knapsack decay, Huffman, fuel, sticks, candy, reorganise string, deviation, meeting rooms, Hu-Tucker, superstring | [Lab 09 README](LAB9/README.md) |
 
 ## 📈 Progress
 
@@ -39,8 +40,9 @@ Lab 05  ████████████████████  100%  4 / 
 Lab 06  ████████████████████  100%  8 / 8 questions
 Lab 07  ████████████████████  100%  7 / 7 questions
 Lab 08  ████████████████████  100%  9 / 9 questions
+Lab 09  ████████████████████  100%  10 / 10 questions
 ──────────────────────────────────────────────────────
-Current work  ████████████████████  100%  8 completed labs · 49 questions
+Current work  ████████████████████  100%  9 completed labs · 59 questions
 ```
 
 | Area | Status | Evidence |
@@ -176,6 +178,25 @@ Lab 7 setup helper: [folders.py](LAB7/folders.py).
 
 Lab 8 setup helper: [folders.py](LAB8/folders.py).
 
+## 💎 Lab 09 — Greedy Design Paradigm
+
+**Lab sheet:** [2026 Week 9 — DAA Lab 09](LAB9/2026_Week9_DAA_Lab_09.pdf) · **Full documentation:** [LAB9/README.md](LAB9/README.md)
+
+| # | Question | Key result | Files |
+| :---: | --- | --- | :---: |
+| 1 | [Fractional Knapsack with Deterioration](LAB9/Q1/README.md) | Adjacent exchange proof shows faster-decaying items ($\lambda$) take strict priority in $O(n \log n)$ | [C](LAB9/Q1/main.c) |
+| 2 | [Canonical Huffman Coding](LAB9/Q2/README.md) | Min-heap prefix tree synthesis + canonical codebook ordered by length in $O(n \log n)$ | [C](LAB9/Q2/main.c) |
+| 3 | [Minimum Refueling Stops (Reverse Greedy)](LAB9/Q3/README.md) | Retroactive max-heap greedy vehicle simulation minimizing stops to target $D$ in $O(n \log n)$ | [C](LAB9/Q3/main.c) |
+| 4 | [Minimum Cost to Connect Sticks](LAB9/Q4/README.md) | Binary merge tree synthesis equivalent to Huffman external path length in $O(n \log n)$ | [C](LAB9/Q4/main.c) |
+| 5 | [Candy Distribution Problem](LAB9/Q5/README.md) | Bi-directional slope greedy scan resolving relative neighbor constraints in linear $\Theta(n)$ | [C](LAB9/Q5/main.c) |
+| 6 | [Reorganise String with K-Distance Apart](LAB9/Q6/README.md) | Max-heap frequency priority queue + circular FIFO cooldown queue in $O(N \log \|\Sigma\|)$ | [C](LAB9/Q6/main.c) |
+| 7 | [Minimise Deviation in Array](LAB9/Q7/README.md) | Two-way greedy reduction to monotonic descent via odd doubling and max-heap in $O(n \log(\max A) \log n)$ | [C](LAB9/Q7/main.c) |
+| 8 | [Minimum Number of Meeting Rooms](LAB9/Q8/README.md) | Interval graph coloring / earliest-start scan with min-heap proving $\chi(G) = \omega(G) = d$ in $O(n \log n)$ | [C](LAB9/Q8/main.c) |
+| 9 | [Hu-Tucker Greedy Simulation](LAB9/Q9/README.md) | 3-phase optimal alphabetic binary tree construction maintaining strict in-order in $O(n^2)$ | [C](LAB9/Q9/main.c) |
+| 10 | [Greedy Superstring Conjecture](LAB9/Q10/README.md) | Exploration of NP-hard SCS, greedy overlap heuristic, and September 2026 ArXiv disproof ($9/4 = 2.25$) | [C](LAB9/Q10/main.c) |
+
+Lab 9 setup helper: [folders.py](LAB9/folders.py).
+
 ## 📁 Repository structure
 
 ```text
@@ -221,6 +242,11 @@ DAA/
 │   ├── Q1/ … Q9/                   Programs and question READMEs
 │   ├── folders.py                  Setup script
 │   └── README.md
+├── LAB9/
+│   ├── 2026_Week9_DAA_Lab_09.pdf   Assignment sheet
+│   ├── Q1/ … Q10/                  Programs and question READMEs
+│   ├── folders.py                  Setup script
+│   └── README.md
 └── README.md                        You are here
 ```
 
@@ -235,7 +261,7 @@ Most questions can be built with `cc -std=c11 -Wall -Wextra main.c -o program`. 
 
 ## 🏷️ Tags
 
-`design-and-analysis-of-algorithms` `daa` `algorithms` `data-structures` `asymptotic-analysis` `divide-and-conquer` `sorting-applications` `two-pointers` `sweep-line` `interval-merging` `merge-sort` `recursion` `benchmarking` `c-programming` `python` `matplotlib` `btech-cse` `semester-3` `dynamic-programming` `fft`
+`design-and-analysis-of-algorithms` `daa` `algorithms` `data-structures` `asymptotic-analysis` `divide-and-conquer` `sorting-applications` `two-pointers` `sweep-line` `interval-merging` `merge-sort` `recursion` `benchmarking` `c-programming` `python` `matplotlib` `btech-cse` `semester-3` `dynamic-programming` `greedy-algorithms` `huffman-coding` `hu-tucker` `shortest-common-superstring` `fft`
 
 <div align="center">
 
