@@ -7,8 +7,7 @@
 ![Labs](https://img.shields.io/badge/Labs-9%20Completed-059669?style=for-the-badge)
 ![Focus](https://img.shields.io/badge/Focus-Algorithms%20%26%20Analysis-D97706?style=for-the-badge)
 
-### B.Tech CSE · Semester 3 · DAA Laboratory
-
+### B.Tech CSE · Semester 3 · DAA Laboratory - 2026
 </div>
 
 > A collection of Design and Analysis of Algorithms laboratory work: C implementations, Python benchmark tools, result data, graphs, and detailed explanations for every completed question.
