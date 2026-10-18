@@ -367,8 +367,8 @@
     gutter: 8pt,
     [
       #text(weight: "bold")[Symmetric Group Invariant & Greedy Ordering:]
-      Each allowable swap $(u, v)$ is a transposition transposition generator.
-      By the Cayley-Hamilton and transposition theorems in abstract algebra, transpositions in any connected graph generate the entire symmetric group $S_{|C|}$.
+      Each allowable swap $(u, v)$ is a transposition generator.
+      By the transposition generation theorem in abstract algebra, transpositions corresponding to edges in any connected graph generate the entire symmetric group $S_{|C|}$.
       - Hence, elements occupying indices in the same connected component $C$ can be rearranged into *any* arbitrary permutation.
       - To achieve lexicographical minimality, for each connected component:
         1. Extract the sorted list of index positions: $i_1 < i_2 < dots < i_k$.

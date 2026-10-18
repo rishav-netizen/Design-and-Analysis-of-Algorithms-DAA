@@ -13,7 +13,7 @@
 
 > This lab explores advanced graph algorithms and dynamic connectivity paradigms centered on the **Disjoint Set Union (DSU / Union-Find)** data structure, graph representations, and connected component maintenance (Difficulty level: Medium and Hard). It covers online graph-bipartiteness testing with parity potentials, dynamic 2D grid component tracking (Number of Islands II) via coordinate flattening, size-constrained maximum weight component optimization with lazy priority queues, reverse time-step offline graph component analysis under vertex deletions, and lexicographically smallest permutation synthesis through symmetric group transpositions on connected components. Every procedure is implemented in C11 with rigorous mathematical foundations, formal exchange and transitivity proofs, asymptotic complexity derivations, and interactive console verification.
 
-[← Repository home](../README.md) · [Lab 10 Assignment Sheet (PDF)](2026_Week10_DAA_Lab_10.pdf)
+[← Repository home](../README.md) · [Lab 10 Assignment Sheet (PDF)](2026_Week10_DAA_Lab_10.pdf) · [📄 Lab 10 Solutions Report (Rishav Kumar)](DAA_Lab_10_Report_Rishav_Kumar.pdf)
 
 ```text
 Lab 10  █████████████████████  100%  5 / 5 questions complete
@@ -58,6 +58,7 @@ Each program provides an interactive menu:
 ## 📁 Supporting Files
 
 - [2026_Week10_DAA_Lab_10.pdf](2026_Week10_DAA_Lab_10.pdf): Official Lab 10 assignment sheet from the course instructor.
+- [DAA_Lab_10_Report_Rishav_Kumar.pdf](DAA_Lab_10_Report_Rishav_Kumar.pdf): Formal compiled academic lab report for Rishav Kumar (Roll: B125099).
 - [folders.py](folders.py): Automation script for scaffolding lab folders.
 - [report.typ](report.typ): Academic report source written in Typst.
 
