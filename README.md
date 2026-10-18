@@ -27,6 +27,7 @@
 | **Lab 07** | [Assignment PDF](LAB7/2026_Week7_DAA_Lab_07.pdf) · [Report PDF](LAB7/DAA_Lab_07_Report.pdf) | Puzzle algorithms, Frame-Stewart, Gray code switches, moving target, MCM | [Lab 07 README](LAB7/README.md) |
 | **Lab 08** | [Week 8 assignment PDF](LAB8/2026_Week8_DAA_Lab_08.pdf) | Dynamic Programming, coin change, LCS, LIS, MSIS, edit distance, rod cutting, OBST, Collatz | [Lab 08 README](LAB8/README.md) |
 | **Lab 09** | [Week 9 assignment PDF](LAB9/2026_Week9_DAA_Lab_09.pdf) | Greedy Design Paradigm, knapsack decay, Huffman, fuel, sticks, candy, reorganise string, deviation, meeting rooms, Hu-Tucker, superstring | [Lab 09 README](LAB9/README.md) |
+| **Lab 10** | [Week 10 assignment PDF](LAB10/2026_Week10_DAA_Lab_10.pdf) | Graphs, Disjoint Set Union (DSU), bipartiteness, dynamic islands, size-constrained components, reverse deletion, smallest permutation | [Lab 10 README](LAB10/README.md) |
 
 ## 📈 Progress
 
@@ -40,8 +41,9 @@ Lab 06  ████████████████████  100%  8 / 
 Lab 07  ████████████████████  100%  7 / 7 questions
 Lab 08  ████████████████████  100%  9 / 9 questions
 Lab 09  ████████████████████  100%  10 / 10 questions
+Lab 10  ████████████████████  100%  5 / 5 questions
 ──────────────────────────────────────────────────────
-Current work  ████████████████████  100%  9 completed labs · 59 questions
+Current work  ████████████████████  100%  10 completed labs · 64 questions
 ```
 
 | Area | Status | Evidence |
@@ -196,6 +198,20 @@ Lab 8 setup helper: [folders.py](LAB8/folders.py).
 
 Lab 9 setup helper: [folders.py](LAB9/folders.py).
 
+## 🌐 Lab 10 — Graphs & Disjoint Set Union (DSU)
+
+**Lab sheet:** [2026 Week 10 — DAA Lab 10](LAB10/2026_Week10_DAA_Lab_10.pdf) · **Full documentation:** [LAB10/README.md](LAB10/README.md)
+
+| # | Question | Key result | Files |
+| :---: | --- | --- | :---: |
+| 1 | [Online Graph-Bipartiteness Testing](LAB10/Q1/README.md) | Parity potential DSU tracking 2-coloring; rejects odd cycles and traces paths via BFS in $O(M \cdot \alpha(V))$ | [C](LAB10/Q1/main.c) |
+| 2 | [Dynamic Connected Components in a Grid](LAB10/Q2/README.md) | Number of Islands II using coordinate flattening $\phi(r, c) = r \cdot C + c$ and 4-neighbor DSU in $O(R \cdot C + k \cdot \alpha(R \cdot C))$ | [C](LAB10/Q2/main.c) |
+| 3 | [Maximum Weight Component with Size Constraints](LAB10/Q3/README.md) | Augmented DSU tracking sizes, weights, and versioning with lazy max-heap in $O(M \log(V + M))$ | [C](LAB10/Q3/main.c) |
+| 4 | [Reverse Time-Step DSU Application](LAB10/Q4/README.md) | Offline time-reversal converting vertex deletions into incremental activations in $O((V + E) \cdot \alpha(V))$ | [C](LAB10/Q4/main.c) |
+| 5 | [Lexicographically Smallest Permutation](LAB10/Q5/README.md) | Transposition generation of $S_{|C|}$ on connected components, greedy sorting in $O(M \cdot \alpha(n) + n \log n)$ | [C](LAB10/Q5/main.c) |
+
+Lab 10 setup helper: [folders.py](LAB10/folders.py).
+
 ## 📁 Repository structure
 
 ```text
@@ -246,6 +262,11 @@ DAA/
 │   ├── Q1/ … Q10/                  Programs and question READMEs
 │   ├── folders.py                  Setup script
 │   └── README.md
+├── LAB10/
+│   ├── 2026_Week10_DAA_Lab_10.pdf  Assignment sheet
+│   ├── Q1/ … Q5/                   Programs and question READMEs
+│   ├── folders.py                  Setup script
+│   └── README.md
 └── README.md                        You are here
 ```
 
@@ -260,7 +281,7 @@ Most questions can be built with `cc -std=c11 -Wall -Wextra main.c -o program`. 
 
 ## 🏷️ Tags
 
-`design-and-analysis-of-algorithms` `daa` `algorithms` `data-structures` `asymptotic-analysis` `divide-and-conquer` `sorting-applications` `two-pointers` `sweep-line` `interval-merging` `merge-sort` `recursion` `benchmarking` `c-programming` `python` `matplotlib` `btech-cse` `semester-3` `dynamic-programming` `greedy-algorithms` `huffman-coding` `hu-tucker` `shortest-common-superstring` `fft`
+`design-and-analysis-of-algorithms` `daa` `algorithms` `data-structures` `asymptotic-analysis` `divide-and-conquer` `sorting-applications` `two-pointers` `sweep-line` `interval-merging` `merge-sort` `recursion` `benchmarking` `c-programming` `python` `matplotlib` `btech-cse` `semester-3` `dynamic-programming` `greedy-algorithms` `graphs` `disjoint-set-union` `dsu` `bipartite-graph` `connected-components` `time-reversal` `number-of-islands`
 
 <div align="center">
 

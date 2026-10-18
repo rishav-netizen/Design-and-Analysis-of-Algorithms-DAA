@@ -13,7 +13,7 @@
 
 > This lab explores advanced algorithmic problem-solving techniques using the **Greedy Design Paradigm** (Difficulty level: Medium and Hard). It covers classical resource scheduling with deterioration, canonical prefix-free Huffman coding, retroactive fuel optimization, binary merge structures, slope-based candy allocation, string reorganization with spacing barriers, deviation minimization with priority queues, interval scheduling and coloring, optimal alphabetic binary search trees (Hu-Tucker algorithm), and an exploration of the open Shortest Common Superstring problem and its recent September 2026 disproof. Every procedure is implemented in C with clean functional decomposition, memory safety, proper input representations, formal exchange-argument optimality proofs, and rigorous time/space complexity derivations.
 
-[← Repository home](../README.md) · [Lab 09 Assignment Sheet (PDF)](2026_Week9_DAA_Lab_09.pdf) · [📄 Lab 09 Solutions Report PDF](DAA_Lab_09_Report_Rishav_Kumar.pdf)
+[← Repository home](../README.md) · [Lab 09 Assignment Sheet (PDF)](2026_Week9_DAA_Lab_09.pdf) · [📄 Lab 09 Solutions Report (Rishav Kumar)](DAA_Lab_09_Report_Rishav_Kumar.pdf) · [📄 Lab 09 Solutions Report (Rishav Shaw)](DAA_Lab_09_Report_Rishav_Shaw.pdf)
 
 ```text
 Lab 09  █████████████████████  100%  10 / 10 questions complete
@@ -64,7 +64,8 @@ Each program provides an interactive menu:
 ## 📁 Supporting Files
 
 - [2026_Week9_DAA_Lab_09.pdf](2026_Week9_DAA_Lab_09.pdf): Official Lab 9 assignment sheet from the course instructor.
-- [DAA_Lab_09_Report_Rishav_Kumar.pdf](DAA_Lab_09_Report_Rishav_Kumar.pdf): Formal compiled academic lab report with executive summaries and complexity certificates.
+- [DAA_Lab_09_Report_Rishav_Kumar.pdf](DAA_Lab_09_Report_Rishav_Kumar.pdf): Formal compiled academic lab report for Rishav Kumar (Roll: B125099).
+- [DAA_Lab_09_Report_Rishav_Shaw.pdf](DAA_Lab_09_Report_Rishav_Shaw.pdf): Formal compiled academic lab report for Rishav Shaw (Roll: B125100).
 - [folders.py](folders.py): Automation script for scaffolding lab folders.
 
 Each question directory contains an independent `main.c` and a dedicated `README.md` containing formal problem descriptions, exchange arguments, mathematical proofs, Mermaid flowcharts, and verification traces.
